@@ -7,3 +7,7 @@ Trying to figure out exactly which sizes of favicons are needed is a confusing m
 ## The Results
 You only need 2 favicons: 32px, 180px. 
 
+## Sources
+There are a lot of favicon resources out there. Just Google it. But the two I found most helpful:
+- https://realfavicongenerator.net/favicon_compatibility#.X5pMM1NKjUJ
+- https://github.com/audreyfeldroy/favicon-cheat-sheet
