@@ -15,14 +15,14 @@ You only need 2 favicons: 32px, 180px.
 |  16  | F, E(18)    | F, E(18) |         |              |            ||
 |  32  | S,C,F,E,B,V,O|S,C,F,E,B,V,O| C,E | ||||
 |  48  |             |          | O       | ||||
-|  70  |
-|  120 |
-|  150 |
-|  152 |
-|  180 |
-|  192 |
-|  228 |
-|  SVG |
+|  70  |||||||Small|
+|  120 |||||iPhone|x||
+|  150 |||||||Large|
+|  152 ||||||iPad||
+|  180 |||Sm,F|Sm,Si| Si*||
+|  192 |(C,E,V,B)**| Android | || Andoroid ||
+|  228 |||F***||||
+|  SVG |Sm ||||||
 
 Key:
 
