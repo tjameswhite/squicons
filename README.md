@@ -10,20 +10,31 @@ You only need 2 favicons: 32px, 180px.
 
 ## Short Resuts
 
-| Icon | Browser tab | Bookmark | New Tab | Reading List | Homescreen |
-|---|---|---|---|---|---|
-| 16 |
-| 32 |
-| 48 |
-| 70 |
-| 120 |
-| 150 |
-| 152 |
-| 180 |
-| 192 |
-| 228 |
-| SVG |
+| Icon | Browser tab | Bookmark | New Tab | Reading List | Homescreen | TaskBar | Startbar |
+|------|-------------|----------|---------|--------------|------------| ------- | -------- |
+|  16  | F, E(18)    | F, E(18) |         |              |            ||
+|  32  | S,C,F,E,B,V,O|S,C,F,E,B,V,O| C,E | ||||
+|  48  |             |          | O       | ||||
+|  70  |
+|  120 |
+|  150 |
+|  152 |
+|  180 |
+|  192 |
+|  228 |
+|  SVG |
 
+Key:
+
+- F: Firefox
+- C: Chrome
+- B: Brave
+- V: Vivaldi
+- O: Opera
+- Sm: Safari macOS
+- Si: Sarari iOS/iPadOS
+- E: Edge (Chromium)
+- E(18): Edge 18
 
 ## Sources
 
