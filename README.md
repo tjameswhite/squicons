@@ -2,13 +2,15 @@
 
 Favicons in 25 sizes, numerically named to easily identify which get used.
 
-Trying to figure out exactly which sizes are needed for favicons is a confusing mass of information. While most sites list every size and note which ones are outdated, there is little consensious about what the subset of sizes should be. In order to find out for myself what sizes get used, I created 25 crude numerically named icons for easy identification.
+Trying to figure out exactly which sizes are needed for favicons is a confusing mass of information. Sites list a variety of sizes with notes on when and where the icons suposedly getused. There are a variety of "essential sizes" listed, but not any consistent real-world list. In order to find out for myself what sizes get used, I created 25 crude, numerically named icons for easy identification.
 
 ## <abbr title="Too long, didn't read">TL/DR</abbr>
 
 You only need 2 favicons: 32px, 180px.
 
 ## Short Resuts
+
+I tested a variety of browsers to see which icons got used in the browser tab and bookmark (bar, sidebar, etc). Also tested was the new tab (aka Start page) screen which lists either recent sites or a selection from bookmark/favorites. Additional tests include saving to the homescreen on mobile (both Apple and Android), and pinning to the Taskbar and Start bar in Windows 10.
 
 | Icon | Browser tab | Bookmark | New Tab | Reading List | Homescreen | TaskBar | Startbar |
 |------|-------------|----------|---------|--------------|------------| ------- | -------- |
