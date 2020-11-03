@@ -42,8 +42,25 @@ Key:
 - E: Edge (Chromium)
 - E(18): Edge 18
 
-First a note about the webmanifest. Include it if you want. Most browser will read it; you can include other site info, <!--***does android use it for home screen??**-->
-Let's start whinning this down starting on the right. From what I can tell, with the new Chromium-based Edge on Windows 10, it is no longer possible to pin a regular website to the Start bar. Right off we can elliminate the 70px and 150px icons, as well as the browserconfig.xml file. 
+First a note about the webmanifest. Include it if you want. Most browser will read it and you can include other site info. Interestingly, most of the Chromium-based browsers will download the manifest and the 192px icon refernced, but they never use the icon. Seems a waste of bandwidth. The only place the 192px icon in the manifest gets used is on Android for the home screen icon. Hower, if you don't include it, Android will use the 180px icon instead.
+
+For the rest of the icons, we'll start from the far right of our table with the Win10 Start bar. From what I can tell, with the new Chromium-based Edge on Windows 10, it is no longer possible to pin a regular website to the Start bar. So we can elliminate the 70px and 150px icons, as well as the browserconfig.xml file. (If you plan on supporting Edge 18 and really want users to be able to pin to the start bar, then keep the browserconfig and the 70px and 150px icons. But feel free to trim brwoserconfig down to just those sizes. Lots of sites put 4 sizes in the browserconfig; in my tests there was an option for "small" and "large" (70 and 150) but no options for the larger or rectangular icons.)
+
+Next on the chopping block: Win10 pin to taskbar. Edge 18 will only pin the 32px icon. Chromium-Edge will use 192px if available, but falls back to 120 or 32px. I'm happy to just use 32px on the off chance someone wants to pin the site to their Win10 taskbar. 
+
+As for Apple homescreen icons, iOS prefers the 120px icon and iPadOS prefers the 152px. However, oddly, conviently, both will upsize to the 180px icon if the smaller sizes are missing. This is handy because both devices use the 180px icon for the Reading List and new tab screen (iPad). (Note: tests were done with iOS 13 and 14.) Neither iPhones or iPads show favicons in the favorites/bookmark screen, but when viewing all open tabs, they'll use the 32px. Two more down. An important note: you'll need to use `rel="apple-touch-icon-precomposed"` instead of the standard `rel="icon'` in order to get the homescreen icon to show up. Luckily the other browsers aren't picky and will use `apple-touch-icon-precomposed`. 
+
+Opera Speed dial (new tab screen) was the only place the 48px icon was used. Without it, Opera resorts to a screen shot. A sacrifice I can live with.
+
+As for the crop of Chromium-based browsers, they stick with the 32px icon for everything -- tab, bookmark, new tab screen. 
+
+Firefox will use the 32px for tabs and bookmarks, but if a 16px is available it will use it. For the new tab screen, Firefox prefers the 228px icon, but if that is missing, falls back to the 180px. 
+
+That just leaves Safari desktop. Like Chrome, Safari uses the 32px for tabs and bookmark icons, and like its mobile versions, uses 180px for Reading List and new tab page. Confusingly, in testing an SVG icon, Safari desktop used it for the browser tab, but nowhere else. 
+
+## TL/DR
+
+For a normal website, 32px favicon will get used for the most common use-case: brower tab and favorites. For Firefox new tab and mobile home screens, 180px is the answer.
 
 ## Sources
 
