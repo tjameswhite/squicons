@@ -8,6 +8,17 @@ Trying to figure out exactly which sizes are needed for favicons is a confusing 
 
 Out of 25 icons, only 10 were used. But you really only need two sizes: 32px, 180px.
 
+## How to 
+
+If you want to try for yourself, download the code and load it to your site. 
+
+You'll need to:
+
+1. update your `<head>` with the contents of the `favicon.html` file. 
+2. Save the squicons in your site (`/image/` folder always makes sense...)
+3. Update the `<link href>` in the HTML, browserconfig.xml, and site.webmanifest files to point to where ever you saved the squicons. 
+4. Load them to your server and test away.
+
 ## Tests and Results
 
 I tested a variety of browsers to see which icons got used in the browser tab and bookmark (bar, sidebar, etc). Also tested was the new tab (aka Start page) screen which lists either recent sites or a selection from bookmark/favorites. Additional tests include saving to the homescreen on mobile (both Apple and Android), and pinning to the Taskbar and Start bar in Windows 10.
