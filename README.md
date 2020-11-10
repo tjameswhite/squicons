@@ -6,8 +6,6 @@ Trying to figure out exactly which sizes are needed for favicons is a confusing 
 
 ## The Winners
 
-32px and 180px.
-
 Out of 25 icons, only 10 were used. But you really only need two sizes: 32px, 180px.
 
 ## Tests and Results
@@ -60,7 +58,7 @@ That just leaves Safari desktop. Like Chrome, Safari uses the 32px for tabs and 
 
 ## TL/DR
 
-For a normal website, 32px favicon will get used for the most common use-case: brower tab and favorites. For Firefox new tab and mobile home screens, 180px is the answer.
+For a normal website, 32px favicon will get used for the most common use-case: brower tab and favorites. If you want to be considerate to Firefox's new tab and mobile home screens, include 180px as well.
 
 ## Sources
 
