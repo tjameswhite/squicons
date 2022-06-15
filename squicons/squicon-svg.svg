@@ -1,28 +1,11 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="700.000000pt" height="700.000000pt" viewBox="0 0 700.000000 700.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.11, written by Peter Selinger 2001-2013
-</metadata>
-<g transform="translate(0.000000,700.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M2953 3899 c-90 -16 -133 -60 -133 -138 0 -73 59 -116 207 -151 86
--20 118 -58 97 -115 -16 -42 -121 -59 -190 -30 -25 10 -40 26 -52 55 -15 35
--21 40 -49 40 -38 0 -42 -16 -18 -73 32 -78 144 -122 250 -98 30 7 65 21 80
-32 72 58 73 175 2 222 -14 9 -67 28 -118 42 -116 32 -139 46 -139 84 0 39 31
-63 90 69 65 6 104 -11 125 -54 14 -29 21 -34 51 -34 32 0 34 2 28 28 -10 43
--41 88 -71 101 -42 19 -113 28 -160 20z"/>
-<path d="M3950 3899 c-125 -16 -192 -90 -206 -227 -8 -71 14 -157 52 -201 82
--98 249 -116 369 -40 l45 29 0 95 0 95 -110 0 -110 0 0 -30 0 -30 76 0 75 0
--3 -47 c-3 -46 -5 -49 -48 -71 -36 -19 -57 -23 -106 -20 -107 6 -166 72 -167
-188 -1 127 63 200 174 200 60 0 106 -23 126 -64 17 -36 42 -46 72 -27 22 14
--19 93 -62 120 -43 26 -115 39 -177 30z"/>
-<path d="M3240 3893 c0 -5 43 -118 95 -253 52 -134 95 -246 95 -247 0 -2 17
--3 38 -3 l38 0 97 248 c53 137 97 252 97 256 0 4 -16 6 -36 4 l-36 -3 -74
--200 c-41 -110 -77 -207 -80 -215 -3 -8 -38 78 -78 191 -41 114 -77 212 -80
-218 -8 12 -76 15 -76 4z"/>
-</g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+  .letter {fill: #554dab;}
+  @media (prefers-color-scheme: dark) {
+    .letter {fill: #bad455;}
+  }
+  </style>
+  <text class="letter" style=" font-family: Arial, sans-serif; font-size: 22px; white-space: pre;" transform="matrix(26.096003, 0, 0, 28.256704, -6030.838379, -5065.249023)" x="233.421" y="196.05">S</text>
+  <text class="letter" style=" font-family: Arial, sans-serif; font-size: 22px; paint-order: fill; white-space: pre;" x="-91.083" y="361.097"> </text>
 </svg>
