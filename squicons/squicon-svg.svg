@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-  <text style="fill: rgb(236, 74, 74); font-family: Arial, sans-serif; font-size: 22px; white-space: pre;" transform="matrix(26.096003, 0, 0, 28.256704, -6030.838379, -5065.249023)" x="233.421" y="196.05">S</text>
-  <text style="fill: rgb(234, 8, 8); font-family: Arial, sans-serif; font-size: 22px; paint-order: fill; white-space: pre;" x="-91.083" y="361.097"> </text>
+  <style>
+  .letter {fill: #554dab;}
+  @media (prefers-color-scheme: dark) {
+    .letter {fill: #bad455;}
+  }
+  </style>
+  <text class="letter" style=" font-family: Arial, sans-serif; font-size: 22px; white-space: pre;" transform="matrix(26.096003, 0, 0, 28.256704, -6030.838379, -5065.249023)" x="233.421" y="196.05">S</text>
+  <text class="letter" style=" font-family: Arial, sans-serif; font-size: 22px; paint-order: fill; white-space: pre;" x="-91.083" y="361.097"> </text>
 </svg>
